@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+      showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+      showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+        <title>My Webpage</title>
+        <link rel = "stylesheet" href="mavicPro.css" type = "text/css" >
+    </head>
+    <body>
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a id = "homeBC" href="index.html">Home</a>&nbsp /</li>
+    <li class="breadcrumb-item active" aria-current="page">Mavic 2</li>
+  </ol>
+
+
+<h1 class = "display-3" id = "Heading">DJI Mavic 2</h1>
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade" id = "Slide1">
+    <div class="numbertext">1 / 3</div>
+    <img src="img6.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div class= "Specification">
+  <h4 id="Specification">Specs & Features</h4>
+  <div class="col-md-6 col-xs-12"><h3 class="section-title">Mavic 2 Pro Camera</h3><table class="table-specs"><tbody><tr><th>Sensor</th><td>1” CMOS<br> Effective Pixels: 20 million</td></tr><tr><th>Lens</th><td>FOV: about 77°<br> 35 mm Format Equivalent: 28 mm<br> Aperture: f/2.8–f/11<br> Shooting Range: 1 m to ∞</td></tr><tr><th>ISO Range</th><td>Video:<br> 100-6400<br> Photo: <br> 100-3200 (auto)<br> 100-12800 (manual)</td></tr><tr><th>Shutter Speed</th><td>Electronic Shutter: 8–1/8000s</td></tr><tr><th>Still Image Size</th><td>5472×3648</td></tr><tr><th>Still Photography Modes</th><td>Single shot<br> Burst shooting: 3/5 frames<br> Auto Exposure Bracketing (AEB): 3/5 bracketed frames at 0.7 EV Bias<br> Interval (JPEG: 2/3/5/7/10/15/20/30/60s RAW:5/7/10/15/20/30/60s)</td></tr><tr><th>Video Resolution</th><td>4K: 3840×2160 24/25/30p<br> 2.7K: 2688x1512 24/25/30/48/50/60p<br> FHD: 1920×1080 24/25/30/48/50/60/120p<br> </td></tr><tr><th>Max Video Bitrate</th><td>100Mbps</td></tr><tr><th>Color Mode</th><td>Dlog-M (10bit), support HDR video (HLG 10bit)</td></tr><tr><th>Supported File System</th><td>FAT32 (≤ 32 GB)<br> exFAT (&gt; 32 GB)</td></tr><tr><th>Photo Format</th><td>JPEG / DNG (RAW)</td></tr><tr><th>Video Format</th><td>MP4 / MOV (MPEG-4 AVC/H.264, HEVC/H.265)</td></tr></tbody></table><h3 class="section-title">Aircraft</h3><table class="table-specs"><tbody><tr><th>Takeoff Weight</th><td>Mavic 2 Pro: 907 g<br> Mavic 2 Zoom: 905g</td></tr><tr><th>Dimensions</th><td>Folded:<br> 214×91×84 mm (length×width×height)<br> Unfolded:<br> 322×242×84 mm (length×width×height)</td></tr><tr><th>Diagonal Distance</th><td>354 mm</td></tr><tr><th>Max Ascent Speed</th><td>5 m/s (S-mode)<br> 4 m/s (P-mode)<br></td></tr><tr><th>Max Descent Speed</th><td>3 m/s (S-mode)<br> 3 m/s (P-mode)<br> </td></tr><tr><th>Max Speed (near sea level, no wind)</th><td>72 kph (S-mode)</td></tr><tr><th>Maximum Takeoff Altitude</th><td>6000 m</td></tr><tr><th>Max Flight Time (no wind)</th><td>31 minutes (at a consistent 25 kph)</td></tr><tr><th>Max Hovering Time (no wind)</th><td>29 minutes</td></tr><tr><th>Max Flight Distance (no wind)</th><td>18 km (at a consistent 50 kph)</td></tr><tr><th>Max Wind Speed Resistance</th><td>29–38 kph</td></tr><tr><th>Max Tilt Angle</th><td>35° (S-mode, with remote controller) 25° (P-mode)</td></tr><tr><th>Max Angular Velocity</th><td>200°/s</td></tr><tr><th>Operating Temperature Range</th><td>-10°C to 40°C</td></tr><tr><th>Operating Frequency</th><td>2.400 - 2.483 GHz<br> 5.725 - 5.850 GHz</td></tr><tr><th>Transmission Power (EIRP)</th><td>2.400 - 2.483 GHz<br> FCC：≤26 dBm <br> CE：≤20 dBm <br>SRRC：≤20 dBm<br> MIC：≤20 dBm<br> 5.725-5.850 GHz<br> FCC：≤26 dBm <br>CE：≤14 dBm<br> SRRC：≤26 dBm</td></tr><tr><th>GNSS</th><td>GPS+GLONASS</td></tr><tr><th>Hovering Accuracy Range</th><td>Vertical:<br> ± 0.1 m (when vision positioning is active)<br> ± 0.5 m (with GPS positioning)<br> Horizontal:<br> ± 0.3 m (when vision positioning is active)<br> ± 1.5 m (with GPS positioning)</td></tr><tr><th>Internal Storage</th><td>8 GB</td></tr></tbody></table><h3 class="section-title">Sensing System</h3><table class="table-specs"><tbody><tr><th>Sensing System</th><td>Omnidirectional Obstacle Sensing<sup>1</sup></td></tr><tr><th>Forward</th><td>Precision Measurement Range: 0.5 - 20 m<br> Detectable Range: 20 - 40 m<br> Effective Sensing Speed: ≤ 14m/s<br> FOV: Horizontal: 40°, Vertical: 70°<br></td></tr><tr><th>Backward</th><td>Precision Measurement Range: 0.5 - 16 m<br> Detectable Range: 16 - 32 m<br> Effective Sensing Speed: ≤ 12m/s<br> FOV: Horizontal: 60°, Vertical: 77°<br></td></tr><tr><th>Upward</th><td>Precision Measurement Range: 0.1 - 8 m</td></tr><tr><th>Downward</th><td>Precision Measurement Range: 0.5 - 11 m<br> Detectable Range: 11 - 22 m<br> </td></tr><tr><th>Sides</th><td>Precision Measurement Range: 0.5 - 10 m<br> Effective Sensing Speed: ≤ 8m/s<br> FOV: Horizontal: 80°, Vertical: 65°</td></tr><tr><th>Operating Environment</th><td>Forward, Backward and Sides:<br> Surface with clear pattern and adequate lighting (lux &gt; 15)<br> Upward:<br> Detects diffuse reflective surfaces (&gt;20%) (walls, trees, people, etc.)<br> Downward:<br> Surface with clear pattern and adequate lighting (lux &gt; 15)<br> Detects diffuse reflective surfaces (&gt;20%) (walls, trees, people, etc.)</td></tr></tbody></table><h3 class="section-title">Charger</h3><table class="table-specs"><tbody><tr><th>Input</th><td>100-240 V, 50/60 Hz, 1.8A</td></tr><tr><th>Output</th><td>Main: 17.6 V ⎓ 3.41 A<br> or 17.0 V ⎓ 3.53 A USB: 5 V⎓2 A </td></tr><tr><th>Voltage</th><td>17.6 ± 0.1 V</td></tr><tr><th>Rated Power</th><td>60 W</td></tr></tbody></table><h3 class="section-title">APP</h3><table class="table-specs"><tbody><tr><th>Video Transmission System</th><td>OcuSync 2.0</td></tr><tr><th>Name</th><td>DJI GO 4</td></tr><tr><th>Live View Quality</th><td>Remote Controller:<br> 720p@30fps / 1080p@30fps<br> DJI Goggles:<br> 720p@30fps / 1080p@30fps DJI Goggles RE:<br> 720p@30fps / 1080p@30fps</td></tr><tr><th>Latency (depending on environmental conditions and mobile device)</th><td>120 - 130 ms</td></tr><tr><th>Max Live View Bitrate</th><td>40Mbps</td></tr></tbody></table></div>
+  <div class="col-md-6 col-xs-12"><h3 class="section-title">Mavic 2 Zoom Camera</h3><table class="table-specs"><tbody><tr><th>Sensor</th><td>1/2.3" CMOS<br>Effective Pixels: 12 million</td></tr><tr><th>Lens</th><td>FOV: about 83° (24 mm); about 48° (48 mm）<br> 35 mm Format Equivalent: 24-48 mm<br> Aperture: f/2.8 (24 mm)–f/3.8 (48 mm)<br> Shooting Range: 0.5 m to ∞</td></tr><tr><th>ISO Range</th><td>Video: <br> 100-3200<br> Photo: <br> 100-1600 (auto)<br> 100-3200 (manual)</td></tr><tr><th>Shutter Speed</th><td>Electronic Shutter: 8–1/8000s</td></tr><tr><th>Still Image Size</th><td>4000×3000</td></tr><tr><th>Still Photography Modes</th><td>Single shot<br> Burst shooting: 3/5/7 frames<br> Auto Exposure Bracketing (AEB): 3/5 bracketed frames at 0.7 EV Bias<br> Interval (JPEG: 2/3/5/7/10/15/20/30/60s RAW:5/7/10/15/20/30/60s)</td></tr><tr><th>Video Resolution</th><td>4K: 3840×2160 24/25/30p <br> 2.7K: 2688×1512 24/25/30/48/50/60p<br> FHD: 1920×1080 24/25/30/48/50/60/120p </td></tr><tr><th>Max Video Bitrate</th><td>100Mbps</td></tr><tr><th>Color Mode</th><td>D-Cinelike</td></tr><tr><th>Supported File System</th><td>FAT32 (≤ 32 GB)<br> exFAT (&gt; 32 GB)</td></tr><tr><th>Photo Format</th><td>JPEG / DNG (RAW)</td></tr><tr><th>Video Format</th><td>MP4 / MOV (MPEG-4 AVC/H.264, HEVC/H.265)</td></tr></tbody></table><h3 class="section-title">Gimbal</h3><table class="table-specs"><tbody><tr><th>Mechanical Range</th><td>Tilt: -135–45° Pan: -100–100°</td></tr><tr><th>Controllable Range</th><td>Tilt: -90–30° Pan: -75–75°</td></tr><tr><th>Stabilization</th><td>3-axis (tilt, roll, pan)</td></tr><tr><th>Max Control Speed (tilt)</th><td>120° /s</td></tr><tr><th>Angular Vibration Range</th><td>±0.01° (Mavic 2 Pro)<br> ±0.005° (Mavic 2 Zoom)</td></tr></tbody></table><h3 class="section-title">Remote Controller</h3><table class="table-specs"><tbody><tr><th>Operating Frequency</th><td>2.400 - 2.483 GHz; 5.725 - 5.850 GHz</td></tr><tr><th>Max Transmission Distance (unobstructed, free of interference)</th><td>2.400 - 2.483 GHz; 5.725 - 5.850 GHz<br> FCC: 8000 m <br>CE: 5000 m <br>SRRC: 5000 m<br>MIC: 5000 m</td></tr><tr><th>Operating Temperature Range</th><td>0℃ - 40℃</td></tr><tr><th>Transmission Power (EIRP)</th><td>2.400 - 2.483 GHz<br> FCC: ≤26 dBm <br> CE: ≤20 dBm <br>SRRC: ≤20 dBm<br>MIC: ≤20 dBm<br> 5.725-5.850 GHz<br> FCC: ≤26 dBm <br>CE: ≤14 dBm<br> SRRC: ≤26 dBm</td></tr><tr><th>Battery</th><td>3950 mAh</td></tr><tr><th>Operating Current/Voltage</th><td>1800 mA ⎓ 3.83 V</td></tr><tr><th>Supported Mobile Device Size</th><td>Max length: 160 mm; max thickness: 6.5–8.5 mm</td></tr><tr><th>Supported USB Port Types</th><td>Lightning, Micro USB (Type-B), USB-C</td></tr></tbody></table><h3 class="section-title">Intelligent Flight Battery</h3><table class="table-specs"><tbody><tr><th>Capacity</th><td>3850 mAh</td></tr><tr><th>Voltage</th><td>15.4 V</td></tr><tr><th>Max Charging Voltage</th><td>17.6 V</td></tr><tr><th>Battery Type</th><td>LiPo 4S</td></tr><tr><th>Energy</th><td>59.29 Wh</td></tr><tr><th>Net Weight</th><td>297 g</td></tr><tr><th>Charging Temperature Range</th><td>5℃ to 40℃</td></tr><tr><th>Max Charging Power</th><td>80 W</td></tr></tbody></table><h3 class="section-title">Supported SD Cards</h3><table class="table-specs"><tbody><tr><th>Supported SD Cards</th><td>Micro SD™ <br> Supports a microSD with capacity of up to 128 GB. A UHS-I Speed Grade 3 rating microSD card is required.</td></tr><tr><th>Recommended microSD Cards</th><td>32G <br> Sandisk V30<br> Sandisk Extreme V30 Pro<br> 64G<br> Sandisk Extreme Pro V30<br> 128G<br> Sandisk Extreme V30<br> Sandisk Extreme Pro V30<br>Kingston Canvas Go!<br>Kingston Canvas React</td></tr></tbody></table></div>
+</div>
+
+  <div class= "Review">
+    <h2 id="Review">Detailed Review</h2>
+    
+    Drone photography and videography has been around for a number of years, thanks to the popularity of drones from DJI and others. But if you’ve spent any amount of time looking at drone photos on Instagram, you’ve probably noticed that the images and video from drones all look very similar, and things can get stale pretty quickly. DJI’s new Mavic 2 drones are here to change that, thanks to the improved image quality on the Mavic 2 Pro and greater compositional flexibility on the Mavic 2 Zoom.<br /><br />
+
+    In addition to their new photographic capabilities, the $1,449 Mavic 2 Pro and $1,249 Mavic 2 Zoom are advanced, easy to fly, and reliable consumer drones. They are the kinds of tools that work so well that they fade away into the background, letting you focus on the creative things they are capable of, instead of worrying about whether or not they’re going to fall out of the sky.<br /><br />
+
+    The Mavic 2s have the same foldable design as the original Mavic. They look almost identical, but they’re slightly bigger and noticeably heavier than the one that started the Mavic line. Despite the weight, it’s still a very portable drone, especially compared to something like a Phantom. Both the Pro and Zoom have the same props as the Mavic Pro Platinum, which lets them fly quietly. I didn’t realize how much I’d enjoy that change over the Mavic Air I’ve spent most of my time flying.<br /><br />
+
+    Both models have 8GB of internal storage, which is a bit too small for a video-focused drone, but it’s mostly used as a backup if you forget to insert a microSD card. In order to get this footage onto your computer, you can use the USB-C port found on the side of the Mavic 2s. Just like the one on the Mavic Air, this one also won’t charge your battery. And I wish the remote controller would also switch to USB-C charging to keep things tidier.<br /><br />
+
+    Speaking of the remote, it’s very similar to what you had with the original Mavic, but there are two new features. There’s a slider on the side, which helps you toggle between Sport, Program, and Tripod mode. And it has my favorite invention ever: removable joysticks, which really help when packing the remote in your bag.<br /><br />
+
+    It’s a bit odd talking about design when it comes to a drone. I don’t expect them to be pretty gadgets, but since the Mavic Air was so well-designed, I feel like I need to spend a moment talking about it. I am not the biggest fan of this design: the boring gray color, hard edges on the legs, and the rubberized SD card slot cover. It just didn’t impress me as much as some other drones. But this drone isn’t necessarily designed to be aesthetically pleasing; it’s designed to deliver aesthetically pleasing footage. And it does that so well.<br /><br />
+
+    The biggest difference between the Pro and the Zoom is the camera. It’s been a few years since DJI acquired a majority stake in legendary Swedish camera maker Hasselblad, and we’re finally seeing it pay off for the consumer. The Hasselblad camera in the Pro (which has a very unmemorable name, the L1D-20c) delivers great footage with accurate color. Thanks to the large 1-inch CMOS sensor, you now have a camera that’s better at controlling noise and packs a lot of detail for post-production. It can shoot in both H.264 and H.265, but you can only shoot true flat profile, D-log M, if you’re using H.265. This compression system isn’t widely adopted yet, and it caused some hiccups when I was editing the video. Either way, D-log M gives you a lot more data to work with than the Cinelike profile you find on the Zoom.<br /><br />
+
+    The Zoom’s video footage is not terrible by any means, but it takes some time to get used to fine-tuning the settings that will best fit your needs. Along with a smaller 1/2.3-inch sensor, you won’t find a huge upgrade in quality from some of the other drones on the market. Still, the ability to optically and digitally zoom does completely change how you shoot with your drone, and it can create shots you usually don’t see on many drones, excluding Parrot’s Anafi that came out earlier this year.<br /><br />
+
+    Lastly, these are the first DJI drones that shoot HDR, or high dynamic range, footage. I’m personally not a fan of HDR videos or photos because it often looks over-processed, unnatural, and way too saturated. You don’t get that with the Mavic 2’s HLG HDR, but you also won’t really notice a massive difference between the different shooting modes. For someone who maybe doesn’t want to color footage in post-production, this could be a good option. For me, the 10-bit D-log M profile has enough data retained that I just decided to color those myself for a similar effect.<br /><br />
+
+    If video is primarily what you’ll be using your drone for, the Mavic 2 Pro should be your clear pick. But that choice becomes a bit harder when it comes to photography. Although the Mavic 2 Pro has 20-megapixel images, the Zoom takes good advantage of its 12-megapixel sensor with a new mode called super-resolution. For someone like me, who shoots a lot of photos with his drone, I was very excited about this feature. Here’s how it works: the Zoom takes a total of nine photos, the first one being a reference file at the wider 24mm focal length. It then takes another eight photos with the zoomed-in 48mm lens. If everything goes well, meaning the drone didn’t move as it was taking those photos, the resulting files are then stitched together into one massive 48MP photo. It’s fair to say it didn’t disappoint, and the differences are evident, as you can see below.<br /><br />
+
+    The one new mode that’s on both Mavic 2 models is Hyperlight, which supposedly handles noise better in low-light photos. There’s definitely an improvement in the final image, but don’t expect this to completely clean up your noise-laden photos, which on both drones can get rather messy in low light. Otherwise, they have shooting modes you’re probably already familiar with from older DJI products: horizontal panoramas, vertical panoramas, and 360 spherical photos.<br /><br />
+
+    Lastly, there’s a new mode on both drones called hyperlapse, and I love how it’s implemented in the software. You pick your desired length of the final video and the interval between when each photo is taken, and the drone just does the rest. It auto-stitches the final video for you, too. Unfortunately, that video was extremely shaky in most of my tests. But you can save RAW photos individually and stabilize the hyperlapse yourself on a computer after the fact.<br /><br />
+
+    The new Mavic 2s also have APAS, an obstacle avoidance system that was first introduced in the Mavic Air. But the bigger story here is the new ActiveTrack 2 and 3D mapping. It’s similar to technology we saw earlier this year with Skydio R1, which was just mind-boggling. DJI’s take on it is not as advanced as Skydio’s, though, so you shouldn’t expect to get quite the same results from the Mavics. The early stages of this feature show something promising in the making, but it’s not quite there yet. When following me around some pillars I found in a nearby park, the drone was good at avoiding them, but once it lost track of me, it took a moment to reposition itself.<br /><br />
+
+    The last new addition to the Mavic 2 drones is OccuSync 2, DJI’s image transmission system, which works flawlessly. I never experienced any issues with connectivity while flying in Iceland or more urban places around San Francisco. It even enables 1080p previews and caching, so, in theory, you could edit the whole video on your phone. But that just doesn’t seem like a feature I’d ever take advantage of.<br /><br />
+
+    Trust is something that’s very important when operating a drone. Overall, the Mavic 2 Pro and Zoom are extremely easy to use. You don’t even have to know a lot about videos or photos to be able to capture great footage. With all of the autonomous shooting modes, even if they sometimes fail, the options to create amazing content are endless. DJI rates the battery life on both models at 31 minutes, which is a little longer than their predecessors. In my testing, I typically got around 24 minutes, which is still a lengthy amount of time to keep a drone aloft. Like the flight controls, battery life isn’t something you really have to worry about with these drones. <br /><br />
+
+    Here’s the bottom line: a lot of the updates we got with the new Mavics are updates you’d expect: better obstacle avoidance, more sensors, better connectivity, quieter operation, and a longer battery life. But what really stands out is how these two new drones are elevating aerial photography and videography. The Pro gives you noticeably better video quality than you could ever get with a drone of this size, while the Zoom gives you new tools to completely change how your drone photography looks. These new drones make you think differently about the creative possibilities you can get out of your drone. <br /><br />
+
+    In addition to that, these drones just work great, so you don’t have to worry about connectivity, stability, or any of the other headaches that you used to have to deal with when flying a drone. Instead, you can just focus on getting the shot.<br /><br />
+
+  </div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
