@@ -12,7 +12,7 @@ DETAILS FOR INSTRUCTOR
 
 	4th Requirement: Yes, My website does contain at least 5 different CSS properties, and at least 5 different types of CSS selectors. 
 	
-	5th Requirement: Yes, My website does contain at least one mobile-responsive @media query, such that something about the styling changes for smaller screens. 
+	5th Requirement: Yes, My website does contain at least one mobile-responsive @media query, such that something about the styling changes for smaller screens(however I did notice it is still a little glitchy and doesn't work very well, this is one function that i wasn't able to complete 100%, you may cut marks). 
 
 	6th Requirement: Yes, my website does implement Bootstrap 4 & uses at least 1 bootstrap component as well as contains 3 columns implementing grid layout on the index.html page (Not on all pages). 
 
